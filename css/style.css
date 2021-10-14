@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.contenitore-body {
+    width: 80%;
+    margin: 10px auto;  
+    /* background-color: blue;   */
+}
+
+.box-rosa {
+    width: 100%;
+    height: 7em;
+    background-color: pink;
+}
+
+.box-giallo {
+    margin-top: 20px;
+    width: 100%;
+    height: 21em;
+    background-color: yellow;
+}
+
+.box-azzurro {
+    width: 100%;
+    height: 30em;
+    background-color: rgb(0, 14, 209);
+    margin-top: 20px;
+}
+
+.no-float {
+    height: 4em;
+    border-bottom:10px solid black;
+}
+
+.float {
+    float: left;
+    width: 25%;
+    height: 26em;
+    background-color: green;
+}
+
+.col-centro {
+    width: 50%;
+    border-left: black 10 px;
+}
