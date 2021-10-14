@@ -50,16 +50,20 @@ html {
 
 .float {
     float: left;
-    width: 25%;
     height: 26em;
     /* background-color: green; */
     border-bottom: 10px solid black;
 }
 
+.col-left, .col-right {
+    width: 25%;
+}
 .col-centro {
     width: 50%;
+    height: 26em;
     border-left:  10px solid black;
     border-right: 10px solid black;
+    /* background-color: white; */
 }
 
 footer {
